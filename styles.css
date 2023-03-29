@@ -1,0 +1,83 @@
+/* Make sure the video does not exceed the browser width */
+.container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    margin-top: 25px;
+  }
+  
+  .full-width-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  /* Update the navbar background color */
+.navbar.navbar-expand-lg {
+    background-color: black !important;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  
+  .navbar .nav-link {
+    color: white;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #bf1e2e;
+  }
+
+.btn-custom {
+    background-color: #bf1e2e;
+    color: white;
+  }
+  
+  .btn-custom:hover {
+    background-color: #a51b26;
+    color: white;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #bf1e2e;
+  }
+  
+
+footer {
+    background-color: black;
+  }
+  
+  footer a {
+    color: #bf1e2e;
+  }
+  
+  footer a:hover {
+    color: #a51b26;
+  }
+
+.border-custom {
+    border-color: #bf1e2e;
+  }
+  
+  .underline-custom {
+    text-decoration-color: #bf1e2e;
+  }
+
+  .section-border {
+    border-top: 3px solid #bf1e2e; /* Change this to your preferred border color */
+    padding-top: 25px;
+    margin-top: 25px;
+  }
+
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  
+  
